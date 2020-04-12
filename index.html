@@ -29,8 +29,8 @@
     <meta name="google-site-verification" content="-8Mdpc8JCokZWBxaLjblNIKPVync88nZ_LDXua0fX3U" />
 
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-experiment-0.1.js">
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script src="https://cdn.ampproject.org/v0.js"></script>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <!-- Import other AMP Extensions here -->
     <style amp-custom>
     /* Add your styles here */
@@ -137,7 +137,7 @@
     bottom:-10px;
     right: 0;
     }
-    img {
+    .img {
     border-radius: 50% ;
     }
     </style>
@@ -203,7 +203,7 @@
   </head>
   <body>        
     <div id="app">
-        <amp-imgg alt="Brigaderia da Thay Logo"  layout="responsive"  src="assets/logo.jpeg"> </amp-img>
+        <amp-img class="img" height="150" width="150" layout="fixed"  alt="Brigaderia da Thay Logo"  src="assets/logo.jpeg"> </amp-img>
         <div class="hello">
             <h1>Brigadeiria da Thay</h1>
             <ul>
