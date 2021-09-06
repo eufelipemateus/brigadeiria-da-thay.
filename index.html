@@ -30,6 +30,7 @@
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-analytics-0.1.js">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <!-- AMP Analytics -->
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <!-- Import other AMP Extensions here -->
     <style amp-custom>
@@ -194,6 +195,7 @@
   ]
 }
 </script>
+
   </head>
   <body>        
     <div id="app">
@@ -222,18 +224,8 @@
             <div>Rua Lagolândia, 27 - Casa 2 - Taquara, Rio de Janeiro - RJ, 22720-330</div>
         </div>
     </div>
-    <amp-analytics type="gtag" data-credentials="include">
-    <script type="application/json">
-    {
-      "vars" : {
-        "gtag_id": "UA-157870626-1",
-        "config" : {
-          "UA-157870626-1": {
-            "groups": "default"
-          }
-        }
-      }
-    }
-    </script>
+    <!-- Google Tag Manager -->
+    <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-5SFH6BD&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+
   </body>
 </html>
